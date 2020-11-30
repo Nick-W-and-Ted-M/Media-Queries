@@ -5,9 +5,7 @@
         /*flex-wrap: wrap;*/
         /*align-content: center;*/
         align-items: center;
-
-
-
+        width: 100%;
     }
     .hidden-on-desktop {
         width: 90%;
@@ -18,14 +16,20 @@
     .nav-links {
         display: flex;
         flex-direction: column;
-        /*justify-content: space-between;*/
-        background-color: grey;
-        margin: 1em;
+        justify-content: space-around;
+        align-items: stretch;
         padding: 1em;
-        width: 100%;
+        width: 300px;
     }
 
     ul  {
         list-style-type: none;
+    }
+    li{
+        background-color: grey;
+        margin: 10px ;
+        padding: 1em;
+        width: 100%;
+        align-self: center;
     }
 }
