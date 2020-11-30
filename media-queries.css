@@ -1,0 +1,28 @@
+@media screen and (min-width : 240px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
+        /*align-content: center;*/
+        align-items: center;
+
+
+
+    }
+    .hidden-on-desktop {
+        width: 90%;
+        background-color: lightblue;
+        padding: 1em;
+        border: solid 1px grey;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-between;*/
+        background-color: grey;
+        /*margin: 1em;*/
+        /*padding: 1em;*/
+        width: 100%;
+    }
+
+}
